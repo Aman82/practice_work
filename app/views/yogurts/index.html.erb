@@ -1,0 +1,7 @@
+<ul>
+<% @yogurts.each do |y| %>
+<li>
+<%= link_to y.inspect, yogurt_path(y) %>
+</li>
+<% end %>
+</ul>
